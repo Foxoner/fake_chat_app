@@ -1,0 +1,56 @@
+.dialogs_item {
+    display: flex;
+    // width: 100%;
+    // margin-bottom: 10px;
+    padding: 0 10px;
+    // border-bottom: 2px solid #e0e0e0;
+    &_avatar {
+        width: 40px;
+        height: 40px;
+        flex: 0 0 40px;
+        margin-right: 10px;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+    }
+    &_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        margin-bottom: 15px;
+        &_top {
+            display: flex;
+            margin-bottom: 6px;
+            b {
+                font-weight: 700;
+                font-size: 14px;
+                margin-right: 10px;
+                flex: 1;
+            }
+            span {
+                opacity: 0.5;
+            }
+        }
+        &_bottom {
+            position: relative;
+            p {
+                opacity: 0.7;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width: 230px;
+                white-space: nowrap;
+            }
+            img {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
