@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fake_chat_app%20/static/css/main.ddc4984f.css",
+    "main.js": "/fake_chat_app%20/static/js/main.db627e75.js",
+    "static/js/787.6f726199.chunk.js": "/fake_chat_app%20/static/js/787.6f726199.chunk.js",
+    "index.html": "/fake_chat_app%20/index.html",
+    "main.ddc4984f.css.map": "/fake_chat_app%20/static/css/main.ddc4984f.css.map",
+    "main.db627e75.js.map": "/fake_chat_app%20/static/js/main.db627e75.js.map",
+    "787.6f726199.chunk.js.map": "/fake_chat_app%20/static/js/787.6f726199.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddc4984f.css",
+    "static/js/main.db627e75.js"
+  ]
+}
